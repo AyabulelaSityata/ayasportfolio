@@ -1,0 +1,186 @@
+*,
+::before,
+::after {
+    margin: 0%;
+    padding: 0%;
+    
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    height: 80px;
+
+}
+
+body {
+    background-color: gray;
+
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+
+}
+
+.collapse{
+    display: flex;
+    justify-content: right;
+    text-align: left;
+}
+
+.nav-item{
+    padding-left: 60px;
+    text-align: ;
+}
+
+.image img{
+    width: 20px;
+    height: 20px;
+    border-radius: 70rem;
+    
+}
+.image{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+.heading {
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+footer {
+    background-color: gray;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+}
+
+.social-icons a i {
+    font-size: 2em;
+    color: black;
+    opacity: .9;
+}
+
+/* Hover effects on social media icons */
+.social-icons a:hover {
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.social-icons a:hover i {
+    transition: 0.5s;
+    color: white;
+}
+
+.footer-bottom p {
+    color: gray;
+    justify-content: center;
+}
+
+
+/* About me page styling */
+
+.carousel {
+    margin-top: 50px;
+}
+
+/* Contact page styling */
+
+.connect {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    width: 90%;
+    max-width: 20px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+input, textarea {
+
+}
+
+/* flip card styling */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: gray;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+
+  h3 {
+    color:black;
+    text-decoration: black;
+  }
