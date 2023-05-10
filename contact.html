@@ -73,26 +73,35 @@
       <textarea name="message" id="message" required></textarea>
       <button type="submit" id="submit" class="btn-submit">Submit</button>
     </form> -->
-
-    <form>
-        <div class="contact-info">
-            <input type="text" id="name" required>
-        <label for="name">Your name</label>
-        </div>
-        <div class="contact-info">
-            <input type="text" id="number" required>
-        <label for="number">Contact no.</label>
-        </div>
-        <div class="contact-info">
-            <input type="text" id="email" required>
-        <label for="email">Enter email</label>
-        </div>
-        <div class="contact-info">
-            <textarea id="message" rows="8"></textarea>
-        <label for="message">Your message</label>
-        </div>
-        <button type="submit">Sub</button>
-    </form>
+    
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact me here</h2>
+    <p>Leave a message:</p>
+  </div>
+  <div class="row">
+    <!-- <div class="column">
+      <img src="/w3images/map.jpg" style="width:100%">
+    </div> -->
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Western Cape</option>
+          <option value="canada">Eastern Cape</option>
+          <option value="usa">Gauteng</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
     
     <footer>
         <div class="footer-container">
